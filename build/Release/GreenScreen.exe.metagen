@@ -1,0 +1,37 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly GreenScreen, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class GreenScreen.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String tmpPath : Public
+    System.String savePath : Public
+    System.String resourcePath : Public
+    System.String bgFolder : Public
+    System.String fgFolder : Public
+    Int32 saveIncremental : Public
+    System.Collections.Generic.List`1[System.String] backgroundList IsByValue : Public, InitOnly
+    System.Collections.Generic.List`1[System.String] foregroundList IsByValue : Public, InitOnly
+    Int32 resouceSize : Public
+    Int32 liveStreamWidth : Public
+    Int32 liveStreamHeight : Public
+    Boolean isWideScreen : Public
+    Int32 offsetScreenX : Public
+    Int32 offsetScreenY : Public
+  Methods:
+    getBackground(Mat*, Int32): PrivateScope, Public, HideBySig
+    getForeground(Mat*, Int32): PrivateScope, Public, HideBySig
+    setRandomImageSet(): PrivateScope, Public, HideBySig
