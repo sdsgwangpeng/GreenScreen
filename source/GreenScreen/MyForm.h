@@ -21,6 +21,7 @@ namespace GreenScreen {
 	using namespace cv;
 	using namespace std;
 
+	//INITIAL***********************
 	//OUTSIDE VARS
 	//canon vars
 	EdsError err = EDS_ERR_OK;
